@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pizzaria Paraíso</title>
+ <link rel="stylesheet" href="style.css" >
+    <link rel="icon" type="image/png" href="img/R-removebg-preview.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">  <img src="img/srf4e3t.png" alt="Logo do Restaurante" /></div>
+    <nav id="nav-menu">
+      <a href="#hero">Home</a>
+      <a href="#sobre">Sobre nós</a>
+      <a href="#menu">Menu</a>
+      <a href="#contato">Contato</a>
+      <a href="#pagamento">Tipos de pagamentos</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" role="button" tabindex="0">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+  <!-- ...home.. -->
+ <section class="hero" id="hero">
+  <div class="hero-content">
+    <h1>Bem-vindo a Pizzaria Paraíso</h1>
+    <p>Na nossa pizzaria, cada pizza é preparada com ingredientes selecionados, massa artesanal e muito carinho. Do clássico à criação exclusiva, temos a pizza perfeita para cada paladar. Venha viver essa experiência irresistível!</p>
+    <a href="#sobre" class="btn-ver-mais"   aria-label="Ver mais">Ver Mais</button></a>
+  </div>
+  
+</section>
+
+
+  <!-- 🌊 Quebra de página em forma de onda -->
+  <div class="onda-topo">
+    <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+      <path d="M0,0 C480,100 960,0 1440,100 L1440,120 L0,120 Z" fill="#0a0a0a"></path>
+    </svg>
+  </div>
+  <!-- ...sobre.. -->
+  <section class="sobre-imagem-bg" id="sobre">
+    <div class="sobre-overlay"></div>
+    <div class="sobre-conteudo">
+      <div class="sobre-texto">
+        <h2>Sobre Nós</h2>
+        <p>Fundada com amor pela gastronomia, nossa pizzaria une tradição e criatividade para oferecer pizzas artesanais com ingredientes selecionados e massa de longa fermentação. Nosso ambiente acolhedor e atendimento dedicado tornam cada visita uma experiência memorável.</p>
+        <p class="assinatura">— Equipe Pizzaria Paraiso</p>
+      </div>
+    </div>
+  </section>
+
+
+<!-- 🌊 Quebra de página entre Sobre e Menu -->
+<div class="onda-baixo">
+  <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+    <path d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z" fill="#0a0a0a"></path>
+  </svg>
+</div>
+  <!-- ...menu.. -->
+ <section class="menu" id="menu">
+  <div class="menu-overlay"></div>
+  <div class="menu-content">
+    <h2>Nosso Menu de Pizzas</h2>
+    <div class="menu-grid">
+    <article class="menu-item">
+      <img src="img/29848223_ml.jpg" alt="Pizza Margherita" />
+      <h3>Margherita</h3>
+      <p>Molho de tomate, mussarela, manjericão fresco e azeite extra virgem.</p>
+      <span class="price">R$ 42,00</span>
+      <button class="btn-pedir" aria-label="Pedir pizza Margherita">Pedir</button>
+    </article>
+    <article class="menu-item">
+      <img src="img/calabresa.avif" alt="Pizza Calabresa" />
+      <h3>Calabresa</h3>
+      <p>Mussarela, calabresa fatiada, cebola roxa e orégano.</p>
+      <span class="price">R$ 45,00</span>
+      <button class="btn-pedir" aria-label="Pedir pizza Calabresa">Pedir</button>
+    </article>
+    <article class="menu-item">
+      <img src="img/pizza-3-queijos.jpg" alt="Pizza Quatro Queijos" />
+      <h3>Quatro Queijos</h3>
+      <p>Mussarela, provolone, gorgonzola e parmesão.</p>
+      <span class="price">R$ 50,00</span>
+      <button class="btn-pedir" aria-label="Pedir pizza Quatro Queijos">Pedir</button>
+    </article>
+    <article class="menu-item">
+      <img src="img/receitas-de-pizza-de-atum-05-730x449.webp" alt="Pizza Portuguesa" />
+      <h3>Portuguesa</h3>
+      <p>Mussarela, presunto, ovos, cebola, azeitonas e orégano.</p>
+      <span class="price">R$ 48,00</span>
+      <button class="btn-pedir" aria-label="Pedir pizza Portuguesa">Pedir</button>
+    </article>
+    <article class="menu-item">
+      <img src="img/230.Pizza-de-Frango-com-Catupiry.webp" alt="Pizza Frango com Catupiry" />
+      <h3>Frango com Catupiry</h3>
+      <p>Frango desfiado, catupiry e milho verde.</p>
+      <span class="price">R$ 47,00</span>
+      <button class="btn-pedir" aria-label="Pedir pizza Frango com Catupiry">Pedir</button>
+    </article>
+    <article class="menu-item">
+      <img src="img/2016-04-15-pizza-vegana-1900-verdure-1.webp" alt="Pizza Vegana" />
+      <h3>Vegana</h3>
+      <p>Molho de tomate, queijo vegano, tomate, cebola, pimentão e manjericão.</p>
+      <span class="price">R$ 44,00</span>
+      <button class="btn-pedir" aria-label="Pedir pizza Vegana">Pedir</button>
+    </article>
+    <article class="menu-item">
+      <img src="img/6601639.jpg" alt="Pizza Pepperoni" />
+      <h3>Pepperoni</h3>
+      <p>Mussarela, pepperoni picante, molho de tomate e orégano.</p>
+      <span class="price">R$ 49,00</span>
+      <button class="btn-pedir" aria-label="Pedir pizza Pepperoni">Pedir</button>
+    </article>
+    <article class="menu-item">
+      <img src="img/65846.jpg" alt="Pizza Mediterrânea" />
+      <h3>Mediterrânea</h3>
+      <p>Mussarela, azeitonas pretas, tomates secos, rúcula e azeite.</p>
+      <span class="price">R$ 51,00</span>
+      <button class="btn-pedir" aria-label="Pedir pizza Mediterrânea">Pedir</button>
+    </article>
+  </div>
+</section>
+  <!-- ...contato.. -->
+<section class="contato" id="contato">
+  <div class="contato-overlay"></div>
+  <div class="contato-conteudo">
+    <h2>Fale Conosco</h2>
+    <p>Tem alguma dúvida, sugestão ou deseja fazer um pedido especial? Envie sua mensagem abaixo!</p>
+    <form class="form-contato">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </div>
+</section>
+<section class="pagamento" id="pagamento">
+  <div class="pagamento-overlay"></div>
+  <div class="pagamento-conteudo">
+    <h2>Formas de Pagamento</h2>
+    <div class="pagamento-opcoes">
+      <div class="pagamento-item">
+        <img src="img/pix.png" alt="Pix" />
+        <p>Pix</p>
+      </div>
+      <div class="pagamento-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/196/196561.png" alt="Cartão de Crédito" />
+        <p>Cartão de Crédito/Debito</p>
+      </div>
+      <div class="pagamento-item">
+        <img src="img/logo-vr-vale-refeicao-4096.png" alt="Vale Refeição" />
+        <p>Vale Refeição (VR)</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="rodape">
+  <p>Desenvolvido por <strong>Sara Torelli Vaz</strong></p>
+</footer>
+
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+
+    menuToggle.addEventListener('keydown', (e) => {
+      if(e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        navMenu.classList.toggle('active');
+      }
+    });
+  </script>
+</body>
+</html>
